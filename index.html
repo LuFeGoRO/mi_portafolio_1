@@ -8,14 +8,17 @@
 <body>
     <div id="inicio"></div>
     <table  align="center" border="1">
-        <tr>
-            <th ><h1>Portafolio personal</h1></th>
-        </tr>
+        <thead>
+            <tr>
+                <th ><h1>Portafolio personal</h1></th>
+            </tr>
+        </thead>
+        
     </table>
     <br>
     <table  align="center" border="1">
    <tr>
-    
+    <tbody>
         <td><a href="#formulario"><h4>Formulario de Contacto</h4></a></td>
     
     
@@ -24,7 +27,9 @@
         <td><a href="#audios"><h4>Mis Grabaciones</h4></a></td>
     
         <td><a href="#videos"><h4>Mis cortometrages</h4></a></td>
+        <td><a href="#compras"><h4>Seccion de compras</h4></a></td>
    </tr>
+    </tbody>
     </table>
     <section id="formulario">
        <fieldset>
@@ -131,6 +136,28 @@
             </li>
         </ul>
     </article>
+   </div>
+   <div id="compras">
+   <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Descripcion</th>
+                        <th>precio</th>
+                    </tr>
+                        
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Caminata 2 horas</td>
+                        <td>acompañamiento con recuerdos fotograficos. <br> Recive: paquete de 10 fotos, cortometraje editado de los mejores momentos</td>
+                        <td>$50</td>
+                        <td><button onclick="agregarAlCarrito('Caminata 2 horas',$50)"></button></td>
+                    </tr>
+                </tbody>
+            </table>
+   </section>
    </div>
 </body>
 </html>
